@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flexconteiner {
+    height: 500px;
+    width: 400 px;
+    background-color: gold;
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-content: center;
+    /* align-content: flex-end; */
+    /* align-content: flex-start; */
+    /* align-content: space-around; */
+    /* align-content: stretch; */
+
+}
+
+.flexitem {
+    height: 90px;
+    width: 90px;
+    background-color: green;
+    text-align: center;
+    display: inline-block;
+
+    
+}
+.flexitem h3 {
+    margin: 0;
+}
+
+.mainesection {
+    width: 100%;
+    height: 100vh;
+    background-color: honeydew;
+}
+.sectionWrapper {
+    border: 1px solid black;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto
+}
+.header {
+    width: 100%;
+    height: 19%;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    border: 30px solid black;
+    border-radius: 100px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.title {
+    font-size: 50px;
+}
+.title h1 {
+    margin: 0px;
+    padding: 0;
+}
+.textconteiner {
+    width: 100%;
+    height: 21%;
+    border: 1px solid black;
+}
+.grafconteiner {
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid black; */
+}
+.text {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    /* border-top: 1px solid rgb(54, 132, 201); */
+    
+}
+.textbox1 {
+    border-right: 1px solid rgb(54, 132, 201);
+    margin: 10px;
+    
+}
+.textbox2 {
+    margin: 10px;
+}
+.text2 {
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid black; */
+    border-radius: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.logo2 {
+    color: gainsboro;
+    font-size: 30px;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.colorbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    
+}
+
+.box-1 {
+    /* border: 1px solid black; */
+    padding: 0;
+    width: 30%;
+    height: 100%;
+    background-color: brown;
+}
+.box-2 {
+    /* border: 1px solid black; */
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    background-color: chartreuse;
+}
+.box-3 {
+    /* border: 1px solid black; */
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    background-color: coral;
+}
+.box-4 {
+    /* border: 1px solid black; */
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    background-color: darkgreen;
+}
+.box-5 {
+    /* border: 1px solid black; */
+    padding: 0;
+    width: 10%;
+    height: 100%;
+    background-color: darkslategrey;
+}
+.box-6 {
+    /* border: 1px solid black; */
+    padding: 0;
+    width: 10%;
+    height: 100%;
+    background-color: white;
+}
+.box-7 {
+    /* border: 1px solid black; */
+    padding: 0;
+    width: 10%;
+    height: 100%;
+    background-color: navy;
+}
+.box-8 {
+    /* border: 1px solid black; */
+    padding: 0;
+    width: 10%;
+    height: 100%;
+    background-color: hotpink;
+}
+.box-9 {
+    /* border: 1px solid black; */
+    padding: 0;
+    width: 10%;
+    height: 100%;
+    background-color: deeppink;
+}
+.m1 {
+      
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.music {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-flow: wrap;
+}
+.funk {
+    font-size: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}

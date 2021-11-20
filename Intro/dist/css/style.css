@@ -1,0 +1,13 @@
+.box {
+    width: 100px;
+    height: 300px;
+    color: cyan;
+}
+.parent {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serifgitg
+    
+}
+.child {
+    font-size: 80%;
+}
