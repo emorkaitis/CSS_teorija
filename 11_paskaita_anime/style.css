@@ -1,0 +1,68 @@
+/* @keyframes animacijospav {
+    from {savybe: reiksme}
+    to {savybe: reiksme}
+}
+selektorius {
+    animation-name: animacijosPav;
+    animation-duration: 5s;
+} */
+@keyframes colors {
+    from {background-color: red; top: 100px; left: 100px;}
+    to {background-color: rgb(12, 16, 29); top: 200px; left: 200px;}
+    from {background-color: chartreuse; top: 200px; left: 200px;}
+    to {background-color: darkgreen; top: 100px; left: 100px;}
+   
+}
+@keyframes spin {
+    0% {background-color: blue; top: 500px; left: 500px;}
+    25% {background-color: chartreuse; top: 700; left: 700px;}
+
+}
+
+@keyframes load {
+    from {background-color: blue; top: 100px; left: 500px;}
+    to {background-color: chartreuse; top: 100; left: 500px;}
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation: colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(41, 11, 179);
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    animation: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+.loader {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(113, 190, 24);
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    animation: load;
+    animation-duration: 5s;
+
+}
+h1 {
+    text-align: right;
+    text-shadow: 2px 2px 2px darkgreen, 0px 0px 0px red;
+}
+

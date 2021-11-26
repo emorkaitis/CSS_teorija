@@ -51,21 +51,82 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 3;
+    z-index: 4;
     opacity: 0;
+    transition: 0.5s;
 
 }
 
-.imglay img:hover {
+.imgblock:hover .overlay {
     z-index: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     opacity: 0.6;
     background-color: rgb(17, 184, 17);
+    transform: translate(-10px, -10px);
 }
  .imglay {
-     /* overflow: hidden; */
+     z-index: 2;
+     overflow: hidden;
 
  }
+ .imgblock .imglay .img {
+     height: 100%;
+     width: 100%;
+     object-position: center center;
+     object-fit: cover;
+ }
+ .imgblock .greenlay {
+     background-color: wheat;
+     z-index: 1;
+ }
+ .imgblock:hover .imglay {
+     transform: translate(-10px, -10px);
+ }
+
+.container1 {
+    background-color: yellow;
+    background: linear-gradient(to right, blue, red);
+    border-radius: 50px;
+    height: 40px;
+    width: 75px;
+    position: relative;
+}
+.comtainer1 .switch input {
+    /* -webkit-appearance: none; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
+input::before {
+    background-color: white;
+    width: 85%;
+    height: 70%;
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+
+input::after {
+    background: linear-gradient(to right, orange, blue);
+    content: "";
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    position: absolute;
+    top: 20%;
+    /* transform: translaste(2px, 50%); */
+
+
+}
+input:checked::after {
+    opacity: 1;
+    transform: translate(100%, 0%);
+}
  
 
 
